@@ -7,7 +7,7 @@ Nesta seção, você encontrará uma visão geral das ideias principais para cad
 
 **Dica:** Uma abordagem eficaz é tratar esse problema como uma busca binária guiada pelos símbolos. Se o símbolo for "<", a chave está à esquerda do ponto médio do intervalo. Se for ">", a chave estará à direita do ponto médio. E se for "=", a chave é o próprio ponto médio.
 
-**Observação:** Caso queira ler o conjunto de simbolos com um vetor estatico aloque um espaço para 33 :)
+**Observação:** 33, lembre-se deste número :)
 
 👉 [Solução](problema1/codigo.cpp)
 
