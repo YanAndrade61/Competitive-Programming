@@ -22,6 +22,6 @@ Dentro de cada pasta de nível, você encontrará os arquivos relacionados a cad
 As provas completas estão disponíveis nos seguintes links:
 
 - [Prova Avançada (PDF)](link_para_o_pdf_avancado)
-- [Prova Júnior (PDF)](junior/Prova Junior.pdf)
+- [Prova Júnior (PDF)](junior/Prova_Junior.pdf)
 
 Sinta-se à vontade para explorar as soluções, entender as abordagens utilizadas e aprimorar suas habilidades em programação competitiva. Lembre-se de que compreender as soluções é tão importante quanto implementá-las.
