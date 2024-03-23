@@ -5,13 +5,17 @@ using namespace std;
 int main(){
 
         int n; cin >> n;
-        if(n == 3 || n == 2){cout << "NO SOLUTION" << endl; return 0;}
-        int par = n&1 ? n-1 : n;
-        int impar = n&1 ? n : n-1;
-
-        cout << impar; impar -= 2;
-        for (; impar > 0; impar -=2) cout << " " << impar;
-        for (; par > 0; par -=2) cout << " " << par;
+        if(n == 3 || n == 2){
+		cout << "NO SOLUTION" << endl; 
+		return 0;
+	}
+	if(n == 4) {
+		cout << "3 1 4 2" << endl; 
+        	return 0;
+	}
+	cout << "1" << endl;
+        for (int i = 3; i <= n; i +=2) cout << " " << i;
+        for (int i = 2; i <= n; i += 2) cout << " " << i;
         cout << endl;
 
         return 0;

@@ -5,12 +5,11 @@ using namespace std;
 int main(){
 	
 	int maxc = 0, tmp = 0;
-	string dna; cin >> dna;
-	char atual = dna[0];
-	for(char c: dna){
-		if(atual != c){
+	char ant = ' ', atual;
+	while(cin >> atual){
+		if(atual != ant){
 			tmp = 0;
-			atual = c;
+			ant = atual;
 		}
 		tmp++;
 		maxc = max(maxc,tmp);

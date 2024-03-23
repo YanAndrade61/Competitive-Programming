@@ -9,7 +9,7 @@ int main(){
                 ll x,y; cin >> x >> y;
                 ll maxl = max(x,y); 
                 ll x0 = maxl&1 ? maxl : 0, y0 = maxl - x0;
-                ll value = pow(maxl-1,2) + abs(x0-x) + abs(y0-y); 
+                ll value = (maxl-1)*(maxl-1) + abs(x0-x) + abs(y0-y); 
                 cout << value << endl;
         }
 
